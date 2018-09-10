@@ -1,5 +1,5 @@
 %!PS-Adobe-1.0
-%%BoundingBox:  0   0  1000  500
+%%BoundingBox:  0   0  64  64
 userdict /setpagedevice undef
 save
 legal
